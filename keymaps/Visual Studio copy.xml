@@ -36,6 +36,10 @@
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
+  <action id="Macro.Format on Save">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="MoveLineDown" />
+  <action id="SaveAll" />
   <action id="Vcs.Push" />
 </keymap>

@@ -11,6 +11,9 @@
   <HTMLCodeStyleSettings>
     <option name="HTML_KEEP_BLANK_LINES" value="0" />
   </HTMLCodeStyleSettings>
+  <JavaCodeStyleSettings>
+    <option name="BLANK_LINES_AROUND_INITIALIZER" value="0" />
+  </JavaCodeStyleSettings>
   <XML>
     <option name="XML_KEEP_BLANK_LINES" value="0" />
     <option name="XML_ALIGN_ATTRIBUTES" value="true" />
@@ -27,9 +30,10 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
+    <option name="BLANK_LINES_AFTER_IMPORTS" value="0" />
+    <option name="BLANK_LINES_BEFORE_METHOD_BODY" value="1" />
     <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
     <option name="BLANK_LINES_AFTER_ANONYMOUS_CLASS_HEADER" value="1" />
-    <option name="DO_NOT_INDENT_TOP_LEVEL_CLASS_MEMBERS" value="true" />
     <option name="ELSE_ON_NEW_LINE" value="true" />
     <option name="CATCH_ON_NEW_LINE" value="true" />
     <option name="FINALLY_ON_NEW_LINE" value="true" />
