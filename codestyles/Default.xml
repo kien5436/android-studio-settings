@@ -5,7 +5,14 @@
       <option name="TAB_SIZE" value="2" />
     </value>
   </option>
+  <AndroidXmlCodeStyleSettings>
+    <option name="ARRANGEMENT_SETTINGS_MIGRATED_TO_191" value="true" />
+  </AndroidXmlCodeStyleSettings>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_KEEP_BLANK_LINES" value="0" />
+  </HTMLCodeStyleSettings>
   <XML>
+    <option name="XML_KEEP_BLANK_LINES" value="0" />
     <option name="XML_ALIGN_ATTRIBUTES" value="true" />
   </XML>
   <codeStyleSettings language="EditorConfig">
