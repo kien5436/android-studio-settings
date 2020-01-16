@@ -1,4 +1,10 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
@@ -19,6 +25,8 @@
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="ctrl 0" second-keystroke="ctrl numpad0" />
   </action>
+  <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
@@ -33,13 +41,20 @@
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
   <action id="GotoBookmark0" />
+  <action id="GotoTest" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
+  <action id="Images.ShowThumbnails" />
   <action id="Macro.Format on Save">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="MoveLineDown" />
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="ResourceExplorer.show" />
+  <action id="RunDashboard.ShowConfigurations" />
   <action id="SaveAll" />
   <action id="UpdateRunningApplication" />
   <action id="Vcs.Push" />
