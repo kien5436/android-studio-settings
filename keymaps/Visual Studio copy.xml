@@ -1,4 +1,5 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="ChangesView.Diff" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
@@ -8,6 +9,8 @@
   <action id="CollapseRegion">
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
   <action id="EditorAddOrRemoveCaret" />
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl asterisk" />
@@ -16,6 +19,7 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
+  <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
@@ -40,6 +44,7 @@
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="GotoBookmark0" />
   <action id="GotoTest" />
   <action id="Images.Editor.ZoomIn">
@@ -54,14 +59,21 @@
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="ResourceExplorer.show" />
+  <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
   <action id="SaveAll" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="SendEOF" />
   <action id="UpdateRunningApplication" />
   <action id="Vcs.Push" />
+  <action id="XDebugger.CopyWatch" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
+  <action id="openAssertEqualsDiff" />
 </keymap>
